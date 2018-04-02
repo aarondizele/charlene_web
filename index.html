@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--[if IE]>
+          <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+          <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+        <![endif]-->
+    <!--[if lt IE 9]>
+    	  <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+        <![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charlène Musanji</title>
+    <link rel="icon" type="image/icon" href="https://firebasestorage.googleapis.com/v0/b/mylaxis-4232a.appspot.com/o/favicon.ico?alt=media&token=dcf01b8d-8da6-4080-ae0d-bfcf2e957c80">
+    <script src="https://use.fontawesome.com/c7735c3551.js"></script>
+    <script src="http://abc.xyz/path/to/promise/polyfill.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  </head>
+  <style>
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+    .my-container {
+      min-width: 100vw;
+      min-height: 100vh;
+      background: #650075;
+      color: white;
+    }
+    .my-brand {
+      letter-spacing: -2px;
+      margin-bottom: 10%;
+      font-weight: 400 !important;
+      text-align: center;
+    }
+  
+    .myspinner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .myspinner .bounce {
+      width: 70px;
+    }
+  
+    .myspinner .bounce > div {
+      width: 18px;
+      height: 18px;
+      background-color: white;
+  
+      border-radius: 100%;
+      display: inline-block;
+      -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+      animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    }
+  
+    .myspinner .bounce .bounce1 {
+      -webkit-animation-delay: -0.32s;
+      animation-delay: -0.32s;
+    }
+  
+    .myspinner .bounce .bounce2 {
+      -webkit-animation-delay: -0.16s;
+      animation-delay: -0.16s;
+    }
+  
+    @-webkit-keyframes sk-bouncedelay {
+      0%,
+      80%,
+      100% {
+        -webkit-transform: scale(0)
+      }
+      40% {
+        -webkit-transform: scale(1.0)
+      }
+    }
+  
+    @keyframes sk-bouncedelay {
+      0%,
+      80%,
+      100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+      40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+      }
+    }
+  </style>
+  <body>
+    <div id="app">
+      <div class="my-container">
+        <div class="myspinner">
+          <h1 class="my-brand font-weight-light">
+            Charlène Musanji
+          </h1>
+          <div class="bounce">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- built files will be auto injected -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
